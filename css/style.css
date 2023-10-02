@@ -41,9 +41,40 @@ DEBUG
   height: 420px;
 }
 
-/*----------------------
-COMMON
-----------------------*/
+.debug .section {
+  height: 520px;
+  padding: 55px 0;
+}
+
+.debug .whitebg {
+  background-color: white;
+}
+
+.debug .graybg {
+  background-color: #d3d3d3;
+}
+
+.debug main .section .first-column {
+  background-color: #1e90ff;
+  width: 750px;
+}
+
+.debug main .section .second-column {
+  background-color: #ffc0cb;
+  width: 500px;
+}
+
+.debug .hero-content {
+  width: 1250px;
+  height: 940px;
+  background-color: #228b22;
+  margin: 0 auto;
+}
+
+.debug .big-section {
+  height: 1040px;
+  padding: 50px;
+}
 
 /*----------------------
 HEADER
@@ -90,4 +121,13 @@ nav {
 
 .hero-section {
   margin: 0 auto;
+}
+
+/*----------------------
+MAIN
+----------------------*/
+
+main .section {
+  display: flex;
+  justify-content: center;
 }
