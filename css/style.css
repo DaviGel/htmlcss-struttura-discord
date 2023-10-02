@@ -32,6 +32,10 @@ DEBUG
   border: 3px dashed black;
 }
 
+.debug .hero-section {
+  border: 3px dashed black;
+}
+
 /*----------------------
 COMMON
 ----------------------*/
@@ -41,13 +45,11 @@ HEADER
 ----------------------*/
 
 /* Nav */
-
 nav {
   padding: 18px 0;
 }
 
 /* Main menù */
-
 .main-menu {
   display: flex;
   justify-content: space-between;
@@ -75,4 +77,17 @@ nav {
 /* Login */
 .main-menu .login {
   text-align: right;
+}
+
+/* Elemento centrale principale della pagina */
+.central-main-element {
+  background-color: #00008b;
+  padding: 50px;
+}
+
+.hero-section {
+  background-color: #ee82ee;
+  margin: 0 auto;
+  width: 950px;
+  height: 420px;
 }
