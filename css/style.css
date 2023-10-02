@@ -79,12 +79,11 @@ DEBUG
 
 .debug footer {
   background-color: #23272a;
-  padding: 10px 0 40px 0;
-  border-bottom: 2px solid white;
 }
 
 .debug .footer-section {
   width: 1250px;
+  margin-bottom: 40px;
 }
 
 .debug .footer-element {
@@ -104,6 +103,17 @@ DEBUG
 
 .debug .footer-element {
   width: 220px;
+}
+
+.debug .second-footer-section {
+  width: 1250px;
+  height: 80px;
+  background-color: #7fffd4;
+}
+
+.debug .footer-logo,
+.debug .footer-button {
+  background-color: #ffb6c1;
 }
 
 /*----------------------
@@ -178,8 +188,24 @@ main .section {
 FOOTER
 ----------------------*/
 
+footer {
+  padding-top: 10px;
+}
+
 .footer-section {
   display: flex;
   justify-content: center;
   margin: 0 auto;
+}
+
+.second-footer-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px auto 0;
+}
+
+.footer-logo,
+.footer-button {
+  padding: 10px;
 }
