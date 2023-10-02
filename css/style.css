@@ -18,6 +18,7 @@ DEBUG
 
 .debug .main-menu {
   background-color: #daa520;
+  width: 1270px;
 }
 
 .debug .logo {
@@ -34,6 +35,16 @@ DEBUG
 
 .debug .hero-section {
   border: 3px dashed black;
+}
+
+.debug .central-main-element {
+  background-color: #00008b;
+}
+
+.debug .hero-section {
+  background-color: #ee82ee;
+  width: 950px;
+  height: 420px;
 }
 
 /*----------------------
@@ -53,7 +64,6 @@ nav {
 .main-menu {
   display: flex;
   justify-content: space-between;
-  width: 1270px;
   margin: 0 auto;
 }
 
@@ -81,13 +91,9 @@ nav {
 
 /* Elemento centrale principale della pagina */
 .central-main-element {
-  background-color: #00008b;
   padding: 50px;
 }
 
 .hero-section {
-  background-color: #ee82ee;
   margin: 0 auto;
-  width: 950px;
-  height: 420px;
 }
