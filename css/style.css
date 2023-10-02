@@ -67,14 +67,14 @@ DEBUG
   width: 500px;
 }
 
+.debug .big-section {
+  height: 1040px;
+}
+
 .debug .hero-content {
   width: 1250px;
   height: 940px;
   background-color: #228b22;
-}
-
-.debug .big-section {
-  height: 1040px;
 }
 
 .debug footer {
