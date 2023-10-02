@@ -12,7 +12,8 @@ RESET
 DEBUG
 ----------------------*/
 
-.debug a {
+.debug a,
+.debug button {
   all: unset;
   cursor: pointer;
 }
