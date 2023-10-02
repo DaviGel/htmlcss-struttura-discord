@@ -12,6 +12,11 @@ RESET
 DEBUG
 ----------------------*/
 
+.debug a {
+  all: unset;
+  cursor: pointer;
+}
+
 .debug nav {
   background-color: #add8e6;
 }
@@ -21,19 +26,7 @@ DEBUG
   width: 1270px;
 }
 
-.debug .logo {
-  border: 3px dashed black;
-}
-
-.debug .link {
-  border: 3px dashed black;
-}
-
-.debug .login {
-  border: 3px dashed black;
-}
-
-.debug .hero-section {
+.debug .border {
   border: 3px dashed black;
 }
 
