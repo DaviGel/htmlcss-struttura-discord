@@ -7,3 +7,72 @@ RESET
   padding: 0;
   box-sizing: border-box;
 }
+
+/*----------------------
+DEBUG
+----------------------*/
+
+.debug nav {
+  background-color: #add8e6;
+}
+
+.debug .main-menu {
+  background-color: #daa520;
+}
+
+.debug .logo {
+  border: 3px dashed black;
+}
+
+.debug .link {
+  border: 3px dashed black;
+}
+
+.debug .login {
+  border: 3px dashed black;
+}
+
+/*----------------------
+COMMON
+----------------------*/
+
+/*----------------------
+HEADER
+----------------------*/
+
+/* Nav */
+
+nav {
+  padding: 18px 0;
+}
+
+/* Main menù */
+
+.main-menu {
+  display: flex;
+  justify-content: space-between;
+  width: 1270px;
+  margin: 0 auto;
+}
+
+.main-menu > * {
+  padding: 18px;
+}
+
+.main-menu .link {
+  text-align: center;
+}
+
+.main-menu div {
+  flex-grow: 1;
+}
+
+/* Link */
+.link div {
+  display: inline-block;
+}
+
+/* Login */
+.main-menu .login {
+  text-align: right;
+}
