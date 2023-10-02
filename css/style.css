@@ -31,6 +31,10 @@ DEBUG
   border: 3px dashed black;
 }
 
+.debug .wborder {
+  border: 2px dashed white;
+}
+
 .debug .central-main-element {
   background-color: #00008b;
 }
@@ -43,7 +47,6 @@ DEBUG
 
 .debug .section {
   height: 520px;
-  padding: 55px 0;
 }
 
 .debug .whitebg {
@@ -68,12 +71,39 @@ DEBUG
   width: 1250px;
   height: 940px;
   background-color: #228b22;
-  margin: 0 auto;
 }
 
 .debug .big-section {
   height: 1040px;
-  padding: 50px;
+}
+
+.debug footer {
+  background-color: #23272a;
+  padding: 10px 0 40px 0;
+  border-bottom: 2px solid white;
+}
+
+.debug .footer-section {
+  width: 1250px;
+}
+
+.debug .footer-element {
+  height: 600px;
+  color: white;
+  font-size: 24px;
+}
+
+.debug .footer-section .footer-element {
+  background-color: #20b2aa;
+}
+
+.debug .footer-section .footer-element:first-child {
+  width: 375px;
+  background-color: #f08080;
+}
+
+.debug .footer-element {
+  width: 220px;
 }
 
 /*----------------------
@@ -114,6 +144,10 @@ nav {
   text-align: right;
 }
 
+.section {
+  padding: 55px 0;
+}
+
 /* Elemento centrale principale della pagina */
 .central-main-element {
   padding: 50px;
@@ -130,4 +164,22 @@ MAIN
 main .section {
   display: flex;
   justify-content: center;
+}
+
+.big-section {
+  padding: 50px;
+}
+
+.hero-content {
+  margin: 0 auto;
+}
+
+/*----------------------
+FOOTER
+----------------------*/
+
+.footer-section {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
 }
